@@ -10,10 +10,10 @@
 ## Results
 - The hyperparameter T represents how many weak classifiers are used. The table below shows accuracy and f1 score for T=10, 15 and 50 on test data.
 
-    | T | Accuracy | Precision |
+    | T | Accuracy | F1 score |
     | ------ | ------ | ------ | 
     | 10 | 0.86866 | 0.87710 |
     | 15 | 0.87586 | 0.89841 |
     | 50 | 0.88277 | 0.89822 |
 
-- The `accuracy` and `precision` for a cascaded classifier with 1, 3 and 10 classifiers in the 1st, 2nd and 3rd stages is `0.87932` and `0.91201` respectively.
+- The `accuracy` and `F1 score` for a cascaded classifier with 1, 3 and 10 classifiers in the 1st, 2nd and 3rd stages is `0.87932` and `0.91201` respectively.
